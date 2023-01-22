@@ -1,0 +1,616 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/gabri/PhobiaProject
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56283
+Successfully changed project path to: C:/Users/gabri/PhobiaProject
+C:/Users/gabri/PhobiaProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 106.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gabri/PhobiaProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.2741
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008415 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\PhobiaProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gabri\PhobiaProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3986.
+Memory consumption went from 132.1 MB to 130.8 MB.
+Total: 4.803500 ms (FindLiveObjects: 0.553300 ms CreateObjectMapping: 0.282000 ms MarkObjects: 3.456500 ms  DeleteObjects: 0.509200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 591950.343024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface
+  artifactKey: Guid(a9ab66b4bc09b684d95f1243d2aa9c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface using Guid(a9ab66b4bc09b684d95f1243d2aa9c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b229a50bfd93c1d132e0cbba25ff7') in 0.015793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.297214 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures
+  artifactKey: Guid(47eaab2bbab952640a96736a3fc1e7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures using Guid(47eaab2bbab952640a96736a3fc1e7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47ea7bdbf85677a501e848dca897578') in 0.053873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.530360 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_A.png
+  artifactKey: Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/AdlerWood_01_A.png using Guid(3896f4ca02b49124dbe88348af6cd90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811f3bad799c2399cff2dbdb6c77d933') in 0.155871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_N.png
+  artifactKey: Guid(58bfd504e106d80488fcbb9512c2fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_N.png using Guid(58bfd504e106d80488fcbb9512c2fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87167628eceb2167ae66106c34e93477') in 0.049224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_N.png
+  artifactKey: Guid(9c068687252a67747a8ff9e098cbf47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BrushedMetal_N.png using Guid(9c068687252a67747a8ff9e098cbf47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e28033fb335b5fea25027b96e13b9be') in 0.020017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_A.png
+  artifactKey: Guid(3784f8a002796f147be3cecd94715be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_A.png using Guid(3784f8a002796f147be3cecd94715be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e0bb0d7e29585cc02c3a4a56bf8652') in 0.025348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/FabricShadeGlow_A.png
+  artifactKey: Guid(7a64650033ac05447acbadbe68bf5324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/FabricShadeGlow_A.png using Guid(7a64650033ac05447acbadbe68bf5324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f713d64f4184edfa1f6a7e8050e5f1') in 0.018748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_M.png
+  artifactKey: Guid(60fe05f4313f9a743a60a9520b20834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_M.png using Guid(60fe05f4313f9a743a60a9520b20834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785080d5d1cea570f2d74c5980cb9843') in 0.017573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_H.png
+  artifactKey: Guid(f16f03215be3d524997908d61dbdf67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_H.png using Guid(f16f03215be3d524997908d61dbdf67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66fba955589f0cea54f64c139927da3') in 0.020607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_N.png
+  artifactKey: Guid(888976efb2fe9a643bb905012d649c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BR_Tile_01_N.png using Guid(888976efb2fe9a643bb905012d649c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa08f10246529c18a9c08c246bd412a') in 0.026741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BathroomMat_01_N.png
+  artifactKey: Guid(c21778f00b02c4342b7baa62a9e47e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BathroomMat_01_N.png using Guid(c21778f00b02c4342b7baa62a9e47e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6521f4112be7dbde70986c21d5a24bb6') in 0.022611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_H.png
+  artifactKey: Guid(f3243849f3d44224597bc618e578d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/CastIron_H.png using Guid(f3243849f3d44224597bc618e578d293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f36dca7bb8bec0a4e054e0f1107f83') in 0.017989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_AO.png
+  artifactKey: Guid(4fa1c9ead8b6eb94da2389d7898b0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/Fabric_01_AO.png using Guid(4fa1c9ead8b6eb94da2389d7898b0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0f771e21542fcab1434cf87e9b8472') in 0.019741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BathroomMat_01_A.png
+  artifactKey: Guid(f4065082f0bb85c438e68d90ffd11ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface/BathroomMat_01_A.png using Guid(f4065082f0bb85c438e68d90ffd11ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8f9aad042860f8edcd877d5b90e7c7') in 0.030391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.710809 seconds.
+  path: Assets/Scenes/Textures
+  artifactKey: Guid(bcabb3a0b9de0a241ae8506c4435a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures using Guid(bcabb3a0b9de0a241ae8506c4435a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1879d055eed873bb2fc66db00c7fe89') in 0.002876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.590526 seconds.
+  path: Assets/Scenes/Textures/New Material.mat
+  artifactKey: Guid(3721d48be66db5240b599abb8d273767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/New Material.mat using Guid(3721d48be66db5240b599abb8d273767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc990114177b356b80543456d4aa8d2') in 0.075461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.150295 seconds.
+  path: Assets/Scenes/Textures/doorBlue.mat
+  artifactKey: Guid(3721d48be66db5240b599abb8d273767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/doorBlue.mat using Guid(3721d48be66db5240b599abb8d273767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b4673fdb06430af695bbd5da212494') in 0.019120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.114188 seconds.
+  path: Assets/Scenes/Textures/doorRed.mat
+  artifactKey: Guid(081e0d17ab9067c4a9fb538b7aed9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/doorRed.mat using Guid(081e0d17ab9067c4a9fb538b7aed9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f5a158ae3c3b5086b7dcb59740f5bd') in 0.014238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.814727 seconds.
+  path: Assets/Scenes/Textures/doorRed.mat
+  artifactKey: Guid(081e0d17ab9067c4a9fb538b7aed9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/doorRed.mat using Guid(081e0d17ab9067c4a9fb538b7aed9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf416afe1c6e652b36414f850f1ae00') in 0.013860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.474575 seconds.
+  path: Assets/Scenes/Structure_03.prefab
+  artifactKey: Guid(2326f0f8f7186bf488b4405cec38e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Structure_03.prefab using Guid(2326f0f8f7186bf488b4405cec38e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57484f4b0ea63f89674dea78d3e6eb') in 1.564930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.580133 seconds.
+  path: Assets/Scenes/Hallway/Hallways int.prefab
+  artifactKey: Guid(b34f2569f59c37f4b9d5321982fdbba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int.prefab using Guid(b34f2569f59c37f4b9d5321982fdbba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c196e07e992a74ae3ab0282ce24501') in 0.081160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 673.676119 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b041b3b72f849c667c31eb251f2f5bc9') in 0.117660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.713533 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bc3b7f658938cf3d0ffb8dd5de8bf9') in 0.037730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.596711 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfde3ccd161c25ae60bbc068fc63cd1d') in 0.034932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.759410 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9de818d95a507a4e7d8ad319bcafa5') in 0.035125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.949248 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c212ad6e4cc978f78f08a7ed76b1d1') in 0.036245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.026896 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c0cb37b8a0e39e96f60e1d393959ca') in 0.038101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.343757 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fda330267adaf3f817741fa5cdd48c9') in 0.036782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957472 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40bd32ae0b548622b9ad99899a28d70') in 0.036591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.967208 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed55c9469920b20841a560dd71d200a') in 0.036859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.064796 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4f7255866b2ed16b53e01bef9a3442') in 0.036834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962147 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57d4de3ca447d9090eaeb3b1118a9b9') in 0.035540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.053211 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265fec9688df1166b465ddcb24c9977e') in 0.035315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565244 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bc885566f98e3761d96639eee2cc57') in 0.039754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.165489 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed25545368c513215f033485ded5c06') in 0.038328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811477 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604555603db278d4ea96740d16a63db7') in 0.037102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730903 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6b7f935655d9ec10851b6e64b78d5f') in 0.036642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.012754 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37fdccbb0cce3ffbccbf17a704669a') in 0.038280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.815283 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb2e4bc992c35f83e9275331bcba191') in 0.034816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.626939 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b626412c84aa40b8d1904bc48f1879b0') in 0.045792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.272306 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b687878f126c87b06804085ebfa080') in 0.040532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.327850 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b434fab7d79384712a06cd49f89c07') in 0.035030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.971478 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b9dd9fb2a05d34b5c500e08b1ed8c1') in 0.039698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.984193 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf737cf8181d7bf270424da6d6a7daf') in 0.038953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.224007 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bfc761263963e3c07f3fc4bc3ff392') in 0.035034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516236 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8e529bafb27a858f028d77906caf08') in 0.033245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.058692 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4997ed970a06000db6d12c1c847f5380') in 0.034973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.993216 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8afd8b72f51e40faad1b989a3c887c') in 0.033540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.647023 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7591f18afcfd9c34ade1142ec196e85') in 0.037501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.461324 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c90dc1f9f576a77697f17b3313dfcf9') in 0.034815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012855 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ee0c77abb7786db12f86445d472f7b') in 0.040987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.166139 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e92457d5f0647492e3c5e6602fd6af2') in 0.036503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805512 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ae61ec6a1935cabcb467f4edc380d') in 0.039167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.941345 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3b3f7fbd2badf3d87d6b62b9f33057') in 0.036291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.014045 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d1ab94fe6a2de9b1fc961b8aeb3260') in 0.037618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.663842 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b94a7ec3a539d937ce07643d380eb91') in 0.036704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.989290 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db27709ef190b6f663356516751d6ed8') in 0.037940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.019099 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12c3d0fd53e0b82bdf8e0f3a3d4c649') in 0.036075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.826658 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69894d75d58b5489c18926b6c0bb7a') in 0.038674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.293529 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d031b7c40d0d0c4e11ad76b307f186') in 0.050042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.559704 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087438e5153de254fda405c346e384f7') in 0.048252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.586412 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f508f58678eaddda096c9beabcbec257') in 0.036797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.356347 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d44dee7dc2b664c179f3e3f27adf49e') in 0.037266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.424777 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0704f68d25d4c86340a48a00544c3eaf') in 0.053405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.183405 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370479e53af4db94f429c5d40b593a57') in 0.036488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.926282 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e2cd8936ea96a299408e27de830720') in 0.035704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.582718 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf52171ee094be50799eb754bc4ee709') in 0.034875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.784423 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d13714496b752d21cfd6e9e23d307bd') in 0.042288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.922418 seconds.
+  path: Assets/Scenes/Hallway/Hallways int2.prefab
+  artifactKey: Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hallway/Hallways int2.prefab using Guid(537fe46aa77c9a749992549585140322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73d860b466fb8e150f4fded87e4aa94') in 0.038159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.721855 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Ext_Apt_WallFloor_01_A.png
+  artifactKey: Guid(ee1c712c3dfc8a543ab726de64648deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Ext_Apt_WallFloor_01_A.png using Guid(ee1c712c3dfc8a543ab726de64648deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f2c4744f96a8428910fda30d370a9e') in 0.130489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_03_N.png
+  artifactKey: Guid(3fe628b28bc9f1840a32714ccf063eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_03_N.png using Guid(3fe628b28bc9f1840a32714ccf063eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7021d4f94fe61520adb325e09e7841') in 0.032086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_N.png
+  artifactKey: Guid(52cab35fc66c35d47b73fd24748c768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_N.png using Guid(52cab35fc66c35d47b73fd24748c768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c861b569100ef92e53e5a57c09cb8ff1') in 0.026143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_03_A.png
+  artifactKey: Guid(6f4826912ff8d074ea7cdfd9951e9046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_03_A.png using Guid(6f4826912ff8d074ea7cdfd9951e9046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f54441f826b3312e1e09c0ffb9375f') in 0.025322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_A.png
+  artifactKey: Guid(1b1d6a4d760591e49b71fd4d6e2cc5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_A.png using Guid(1b1d6a4d760591e49b71fd4d6e2cc5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a6cc6178ad1b15d51323e2cce638e7') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png
+  artifactKey: Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior/Int_Apt_01_H.png using Guid(d891eeff6af0d2f41acb05df08dcaaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b385a6b2289a5fc99ab1b705250bf3d9') in 0.020868 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
